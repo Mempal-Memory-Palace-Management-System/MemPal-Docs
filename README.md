@@ -117,8 +117,33 @@ The wireframes illustrate the layout and design of the MemPal app across differe
 ## Project Management
 ![Trello Board Screenshot](link_to_trello_board_screenshot)
 
-The project management approach principle for MemPal includes:
+
+The project management approach **Principle** for MemPal includes:
 - **Task Organization**: Tasks are organized and prioritized using Trello, with clear labels and due dates.
 - **Progress Tracking**: The Trello board is updated regularly to reflect the current status of tasks and milestones.
 - **Agile Methodology**: The project follows agile principles, with regular sprints and reviews to ensure continuous improvement and adaptability.
+
+### 1. Brainstorming Step:
+
+- Check Requirements, forming ideas.
+- Create draft plan for framework, github repositories, Readme.md and documentation, etc.
+- Add regular/repeated tasked as reminders for a more eficient process
+- Add labels to Trello.
+
+![Brainstorming](/docs/brainstorming.png)
+
+### 2. Framework Step:
+
+- Check sample projects from others.
+- Form the ideas of requirement, planning and important key tasks/points:
+
+    1. Problems and Solutions
+    2. Planning and Framework
+    3. Dataflow Diagram, Application Architecture Diagram, User Stories and Wireframes
+    4. Project Management
+
+- Create a more detailed plan with more actionable tasks.
+
+![Framework](/docs/framework.png)
+![Plan](/docs/plan1.png)
 
