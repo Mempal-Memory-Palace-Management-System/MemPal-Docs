@@ -1,4 +1,6 @@
-# [Your Project Name]
+# T3A2 Full Stack Application
+
+# MemPal - Memory Palace Management System
 
 ## Table of Contents
 1. [Description](#description)
@@ -10,81 +12,95 @@
 
 ## Description
 ### Purpose
-Provide a clear and concise explanation of your project's purpose, addressing a specific problem or need.
+MemPal is a minimalist, user-friendly web application designed to help memory athletes and enthusiasts store, organize, and practice their memory palaces. The app aims to improve memory training efficiency by providing a structured and intuitive platform for managing memory palaces and loci.
 
 ### Functionality / Features
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-- [Add more features as needed]
+- **Simple Login System:** Easy sign-up and login process using email and password with secure authentication using JWT.
+- **Memory Palace Management:** Users can create, edit, and delete memory palaces, and categorize them (e.g., numbers, cards, names, and faces).
+- **Loci Management:** Users can add, edit, and organize loci within each palace, attach brief descriptions, and reorder loci using drag-and-drop functionality.
+- **Review System:** Built-in system to practice memorizing the memory palaces with customizable settings (e.g., timed review, randomized order) and basic progress tracking.
+- **Storage Limits:** Free users can store up to 5 memory palaces, while premium users can store unlimited palaces for $0.99/month.
+- **Minimalist Design:** Clean, intuitive interface with everything accessible from the front page, and responsive design for both desktop and mobile devices.
 
 ### Target Audience
-Describe your target audience in detail, including demographics, needs, and how your app addresses them.
+MemPal targets memory athletes, enthusiasts, and anyone interested in improving their memory skills. The app is designed to cater to both beginners and advanced users by offering a range of features that support different levels of memory training.
 
 ### Tech Stack
-- Front End: React.JS, Javascript, HTML, CSS
-- Back End: Node.JS, Express.JS
-- Database: MongoDB, Mongoose
-- Testing: Jest
-- Package Manager: npm
-- Design Tools: draw.io, Figma
-- Deployment: Heroku, Render
-- Development Environment: Visual Studio Code
-- Version Control: GitHub
-- Project Management: Trello
+- **Front End:** React.JS, Javascript, HTML, CSS
+- **Back End:** Node.JS, Express.JS
+- **Database:** MongoDB, Mongoose
+- **Testing:** Jest
+- **Package Manager:** npm
+- **Design Tools:** draw.io, Figma
+- **Deployment:** Heroku, Render
+- **Development Environment:** Visual Studio Code
+- **Version Control:** GitHub
+- **Project Management:** Trello
 
 ## Dataflow Diagram
-[Insert your dataflow diagram here]
-Provide a detailed explanation of the dataflow, including:
-- Data sources
-- Data processing steps
-- Data storage
-- User interactions
-- System responses
+**Dataflow Diagram**
+
+The dataflow diagram illustrates the flow of data within the MemPal application:
+- **User Authentication**: Users sign up and log in using email and password, with JWT-based authentication for secure sessions.
+- **Memory Palace Management**: Users can create, edit, and delete memory palaces, which are stored in MongoDB.
+- **Loci Management**: Users can add, edit, and organize loci within each palace, with data stored in MongoDB.
+- **Review System**: Users can practice memorizing the memory palaces, with progress tracking data stored in MongoDB.
+- **Subscription Management**: Free and premium users have different storage limits, managed through payment integration (e.g., Stripe).
+
 
 ## Application Architecture Diagram
-[Insert your application architecture diagram here]
-Explain the architecture in detail, including:
-- Front-end components
-- Back-end services
-- Database interactions
-- External APIs or services
-- Deployment infrastructure
+**Application Architecture Diagram**
+
+The application architecture diagram provides an overview of the high-level structure of the MemPal app:
+- **Front End**: Built with React.JS, the front end handles user interactions and displays data fetched from the back end.
+- **Back End**: Built with Node.JS and Express.JS, the back end handles API requests, user authentication, and data processing.
+- **Database**: MongoDB is used to store user data, memory palaces, loci, and progress tracking information.
+- **Authentication**: JWT is used for secure user authentication and session management.
+- **Deployment**: The app is deployed on Render.com, ensuring scalability and reliability.
+
 
 ## User Stories
-1. As a [persona], I want to [action] so that [benefit].
+1. As a memory athlete, I want to create a new memory palace so that I can organize my loci for efficient memorization.
    - Acceptance Criteria:
-     - [Criterion 1]
-     - [Criterion 2]
-     - [Criterion 3]
+     - User can create a new memory palace with a name and description.
+     - The new memory palace is saved in the database.
 
-2. As a [persona], I want to [action] so that [benefit].
+2. As a memory trainer, I want to add loci to my memory palace so that I can store and organize information within the palace.
    - Acceptance Criteria:
-     - [Criterion 1]
-     - [Criterion 2]
-     - [Criterion 3]
+     - User can add loci with descriptions to a memory palace.
+     - The loci are saved and associated with the correct memory palace.
 
-[Add more user stories, ensuring they cover all major features and user types]
+3. As a premium user, I want to store unlimited memory palaces so that I can manage a large number of palaces without restrictions.
+   - Acceptance Criteria:
+     - Premium users can create and store an unlimited number of memory palaces.
+     - Subscription status is verified and managed through payment integration.
+
+4. As a user, I want to practice memorizing my memory palaces so that I can improve my memory skills.
+   - Acceptance Criteria:
+     - User can enter practice mode with customizable settings.
+     - Progress is tracked and displayed to the user.
 
 ## Wireframes
-### Mobile View
-[Insert mobile wireframes]
 
-### Tablet View
-[Insert tablet wireframes]
+The wireframes illustrate the layout and design of the MemPal app across different screen sizes:
+- **Mobile View**: Optimized for small screens with a focus on ease of navigation and accessibility.
+- **Tablet View**: Adjusted layout to take advantage of larger screen real estate while maintaining usability.
+- **Desktop View**: Full-featured interface with all functionalities easily accessible from the dashboard.
 
-### Desktop View
-[Insert desktop wireframes]
-Provide explanations for each wireframe, including:
-- Layout decisions
-- User flow
-- Key interactive elements
-- How the design adapts across different screen sizes
+**Mobile View**
+![Mobile Wireframe](link_to_mobile_wireframe_image)
+
+**Tablet View**
+![Tablet Wireframe](link_to_tablet_wireframe_image)
+
+**Desktop View**
+![Desktop Wireframe](link_to_desktop_wireframe_image)
 
 ## Project Management
-[Insert screenshots of your Trello board at different stages of the project]
-Explain your project management approach, including:
-- How tasks were organized and prioritized
-- How you tracked progress
-- How you managed deadlines
-- Any agile methodologies you implemented
+![Trello Board Screenshot](link_to_trello_board_screenshot)
+
+The project management approach principle for MemPal includes:
+- **Task Organization**: Tasks are organized and prioritized using Trello, with clear labels and due dates.
+- **Progress Tracking**: The Trello board is updated regularly to reflect the current status of tasks and milestones.
+- **Agile Methodology**: The project follows agile principles, with regular sprints and reviews to ensure continuous improvement and adaptability.
+
