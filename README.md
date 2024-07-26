@@ -17,16 +17,16 @@ MemPal is a minimalist, user-friendly web application designed to help memory at
 
 ### Memory Palace Technique
 
-#### **What is the Memory Palace Technique?**
+#### What is the Memory Palace Technique
 The Memory Palace technique, also known as the Method of Loci, is a mnemonic device that involves visualizing a familiar place (a "palace") and associating each location withinit (a "locus") with information you want to remember.
 
-#### **How to Use the Memory Palace Technique**
+#### How to Use the Memory Palace Technique
 1. **Choose Your Palace**: Select a familiar place, such as your home, a route you walk daily, or any well-known location.
 2. **Define Your Loci**: Identify specific locations within your palace where you will store information. These could be rooms, furniture, landmarks, etc.
 3. **Associate Information**: Visualize the information you want to remember and place it at each locus. Use vivid and memorable images to make the associations stronger.
 4. **Practice Recall**: Mentally walk through your palace and recall the information at each locus. Regular practice helps reinforce the associations.
 
-#### **Applications of the Memory Palace Technique**
+#### Applications of the Memory Palace Technique
 - Daily Life: Remembering shopping lists, to-do lists, names, and faces.
 - Competitions: Used by **_memory athletes_** to memorize decks of cards, numbers, and other data quickly and accurately.
 - Learning: Enhancing study techniques by memorizing facts, dates, vocabulary, and more.
