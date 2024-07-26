@@ -65,6 +65,8 @@ The dataflow diagram illustrates the flow of data within the MemPal application:
 - **Review System**: Users can practice memorizing the memory palaces, with progress tracking data stored in MongoDB.
 - **Subscription Management**: Free and premium users have different storage limits, managed through payment integration (e.g., Stripe).
 
+![Dataflow](/docs/Dataflow.jpg)
+
 
 ## Application Architecture Diagram
 **Application Architecture Diagram**
@@ -159,3 +161,9 @@ Complete the below steps for documentation:
 
 ![trello2](/docs/trello2.png)
 ![trello3](/docs/trello3.png)
+
+### Update 2 - R2
+
+Complete Dataflow diagram
+
+![trello4](/docs/trello4.png)
