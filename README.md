@@ -147,3 +147,15 @@ The project management approach **Principle** for MemPal includes:
 ![Framework](/docs/framework.png)
 ![Plan](/docs/plan1.png)
 
+### Update 1 - R1 
+
+Complete the below steps for documentation:
+
+- Purpose
+- Functionality / Features
+- Target Audience
+- Tech Stack
+- Added Explanation and Applications of the Memory Palace Technique
+
+![trello2](/docs/trello2.png)
+![trello3](/docs/trello3.png)
