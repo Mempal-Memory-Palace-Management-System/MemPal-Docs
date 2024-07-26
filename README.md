@@ -78,6 +78,50 @@ The application architecture diagram provides an overview of the high-level stru
 - **Authentication**: JWT is used for secure user authentication and session management.
 - **Deployment**: The app is deployed on Render.com, ensuring scalability and reliability.
 
+![Application Architecture Diagram](/docs/AAD.jpg)
+
+### **Explanation of Each Stage**
+
+### *Frontend*
+- **React.js Application (A):** The frontend is built using React.js, providing a dynamic and responsive user interface. It handles user interactions and updates the UI based on user actions and data received from the backend.
+- **HTML/CSS/JavaScript (B):** Standard web technologies used to structure, style, and add interactivity to the web application.
+
+### *Backend*
+- **Node.js Server (C):** The backend server is built using Node.js, which handles incoming API requests from the frontend.
+- **Express.js Framework (D):** Express.js is used to create RESTful API endpoints for handling CRUD operations, authentication, and subscription management.
+- **JWT Authentication (E):** JSON Web Tokens (JWT) are used for secure user authentication, ensuring that only authorized users can access certain features.
+- **Subscription Management (F):** Manages user subscriptions, including free and premium tiers, and integrates with the Stripe payment gateway for processing payments.
+
+### *Database*
+- **MongoDB (G):** A NoSQL database used to store user data, memory palaces, loci, and progress tracking information.
+- **Mongoose ORM (H):** An Object-Relational Mapping (ORM) library for MongoDB, providing a schema-based solution to model application data and interact with the database.
+
+### *External Services*
+- **Stripe Payment Gateway (I):** An external service used to handle payment processing for premium subscriptions.
+- **Render.com Hosting (J):** The application is deployed on Render.com, ensuring scalability, reliability, and ease of deployment for both the frontend and backend.
+
+### **Detailed Description**
+
+#### 1. *User Interaction*
+Users interact with the React.js application (A) through a web browser. The frontend handles user inputs, displays data, and communicates with the backend via API requests.
+
+#### 2. *API Requests*
+The React.js application sends API requests to the Node.js server (C) to perform various operations such as creating, editing, and deleting memory palaces and loci, as well as handling user authentication and subscription management.
+
+#### 3. *Request Handling*
+The Node.js server, using the Express.js framework (D), processes incoming API requests. It performs CRUD operations on the MongoDB database (G) through the Mongoose ORM (H).
+
+#### 4. *Authentication*
+The backend uses JWT (E) for secure user authentication. When users log in or sign up, the server generates a JWT, which is used to authenticate subsequent requests.
+
+#### 5. *Subscription Management*
+The backend manages user subscriptions (F), differentiating between free and premium users. It integrates with the Stripe payment gateway (I) to process payments for premium subscriptions.
+
+#### 6. *Data Storage and Access*
+The MongoDB database (G) stores all application data, including user information, memory palaces, loci, and progress tracking. The Mongoose ORM (H) provides a schema-based solution to interact with the database.
+
+#### 7. *Deployment*
+The application is deployed on Render.com (J), which hosts both the frontend and backend, ensuring the application is scalable and reliable.
 
 ## User Stories
 1. As a memory athlete, I want to create a new memory palace so that I can organize my loci for efficient memorization.
@@ -117,7 +161,6 @@ The wireframes illustrate the layout and design of the MemPal app across differe
 ![Desktop Wireframe](link_to_desktop_wireframe_image)
 
 ## Project Management
-![Trello Board Screenshot](link_to_trello_board_screenshot)
 
 
 The project management approach **Principle** for MemPal includes:
@@ -167,3 +210,9 @@ Complete the below steps for documentation:
 Complete Dataflow diagram
 
 ![trello4](/docs/trello4.png)
+
+### Update 3 - R3
+
+Complete Application Architecture Diagram
+
+![trello5](/docs/trello5.png)
