@@ -151,14 +151,48 @@ The wireframes illustrate the layout and design of the MemPal app across differe
 - **Tablet View**: Adjusted layout to take advantage of larger screen real estate while maintaining usability.
 - **Desktop View**: Full-featured interface with all functionalities easily accessible from the dashboard.
 
-**Mobile View**
-![Mobile Wireframe](link_to_mobile_wireframe_image)
+### Basic Idea-brainstorming for Wireframes:
 
-**Tablet View**
-![Tablet Wireframe](link_to_tablet_wireframe_image)
+1. **Header:**
+    
+    The header should contain the logo of MemPal on the left side and the login/signup button on the right side. The login/signup button should be visible only when the user is not logged in. When the user is logged in, the header should display the user's name and a dropdown menu with options to view the user's profile, settings, and logout.
+
+2. **Navigation:**
+
+    The navigation should be placed on the left side of the screen and should contain links to the dashboard, memory palaces, and subscription. The active link should be highlighted to indicate the user's current location.
+
+3. **Dashboard:**
+
+    The dashboard should display an overview of all the memory palaces created by the user. Each memory palace should be displayed as a card with the name, description, and the number of loci in the palace. The user should be able to click on a memory palace card to view the detailed view of the palace.
+
+4. **Memory Palace View:**
+
+    The memory palace view should display the name and description of the palace at the top. Below that, the user should be able to add, edit, and delete loci in the palace. The loci should be displayed as cards with the description and an option to edit or delete the locus. The user should be able to reorder the loci using drag-and-drop functionality. The memory palace view should also have a button to start the practice mode.
+
+5. **Practice Mode:**
+
+    The practice mode should display the loci in the memory palace one by one with a brief description. The user should be able to recall the description and then click on the card to reveal the description. The user should be able to mark the locus as correct or incorrect. The practice mode should have customizable settings such as timed review and randomized order.
+
+6. **Subscription:**
+
+    The subscription section should display the user's current subscription status and the option to upgrade to premium. The user should be able to enter their payment details and upgrade to premium to get unlimited storage for memory palaces.
+
+7. **Footer:**
+
+    The footer should contain links to the terms of service, privacy policy, and contact us page.
+
+
+
+#### * *These Wireframes are just first draft and are subjected to changes in the future* *
+
+**Mobile View and Tablet View**
+
+
+
+![Mobile Wireframe](/docs/mobile_tablet1.png)
 
 **Desktop View**
-![Desktop Wireframe](link_to_desktop_wireframe_image)
+![Desktop Wireframe](/docs/desktop1.png)
 
 ## Project Management
 
@@ -216,3 +250,9 @@ Complete Dataflow diagram
 Complete Application Architecture Diagram
 
 ![trello5](/docs/trello5.png)
+
+### Update 4 - R5
+
+Complete Wireframes
+
+![trello6](/docs/trello6.png)
